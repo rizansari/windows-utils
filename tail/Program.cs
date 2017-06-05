@@ -94,7 +94,8 @@ namespace tail
             }
 
             Console.WriteLine(line);
-            Console.ForegroundColor = ConsoleColor.White;
+            //Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
         }
     }
 }
